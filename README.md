@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)](https://pytorch.org/)
-)
 
 > **A parameter-free metacognitive signal** that improves DKT by **+3.27% AUC** on ASSISTment 2017 ($p < 0.001$) — **without adding any trainable parameters**.
 
@@ -29,9 +28,10 @@ Navid Rezaei Melal
 
 ---
 
-## Installation
+## Quick Start
 
 ```bash
 git clone https://github.com/NavidRezaei/dkt-smi.git
 cd dkt-smi
 pip install -r requirements.txt
+jupyter notebook notebooks/SMI2017_ablation_study.ipynb
